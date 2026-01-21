@@ -4,6 +4,7 @@
 
 # Global excludes across all subdirectories
 *.o
+*.o.tmp
 *.obj
 *.bc
 *.so
@@ -44,6 +45,7 @@ lib*.pc
 /tmp_install/
 /portlock/
 /dist
+/build-output.log
 
 # emscripten build excludes
 *.js
